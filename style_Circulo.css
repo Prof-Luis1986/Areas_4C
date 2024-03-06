@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(45deg, #ef18a4, #0a270e);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#Contenedor{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    color: #000;
+    background: rgba(157, 3, 157, 0.8);
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    display: flex; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#Contenedor2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Contenedor2 input[type="text"] {
+    margin-bottom: 10px; /* Añade espacio entre los inputs */
+}
+
+#Contenedor2 input[type="button"]{
+    margin-bottom: 10px; 
+}
+
+.btnCirculo{
+    background-color: #0db6ee;
+    border-radius: 20px; /* Añade radio de borde al botón */
+    border: double; /* Agrega estilo de borde doble al botón */
+    padding: 10px; /* Añade espacio interno al botón */
+}
+
+.btnCirculo:hover{
+    background-color: #ff6347;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btnVolver{
+    background-color: #0db6ee;
+    border-radius: 20px; /* Añade radio de borde al botón */
+    border: double; /* Agrega estilo de borde doble al botón */
+    padding: 10px; /* Añade espacio interno al botón */
+}
+
+.btnVolver:hover{
+    background-color: #ff6347;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
